@@ -1,6 +1,6 @@
 import json
 
-path = "data/english_quadgrams.txt"
+path = "data/english-quadgrams.txt"
 
 with open(path, "rb") as f:
     for i in range(10):

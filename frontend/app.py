@@ -10,7 +10,7 @@ from backend.ngram.scorer import NGramScorer
 from backend.cracking.caesar_cracker import crack_caesar
 
 
-DATA_PATH = os.path.join(BASE_DIR, "data", "english_quadgrams.txt")
+DATA_PATH = os.path.join(BASE_DIR, "data", "english-quadgrams.txt")
 
 # ---------- STREAMLIT UI ----------
 st.set_page_config(page_title="Cipher Cracker", layout="centered")
